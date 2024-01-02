@@ -1,2 +1,2 @@
 # About me
-View: https://ranjancodes.github.io/about-me/
+View: https://itsshaharyan.github.io/About-me/
