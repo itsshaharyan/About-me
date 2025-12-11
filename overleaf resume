@@ -1,0 +1,123 @@
+\documentclass[letterpaper,10pt]{article} % Smaller font size
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,urlcolor=blue}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome}
+ 
+% === FONT CHANGE FOR READABILITY ===
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\sfdefault} % Switches to Sans-Serif (Latin Modern Sans) for better on-screen readability
+% ===================================
+ 
+% Adjust margins to fit on one page
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-0.75in}
+\addtolength{\textheight}{1.5in}
+ 
+\pagestyle{empty}
+ 
+% Section formatting
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] % Smaller section title font
+\titlespacing{\section}{0pt}{8pt}{8pt} % Reduced spacing around sections
+ 
+% Custom commands
+\newcommand{\resumetitle}[1]{%
+    \vspace{4pt} % Reduced space before the title
+    \textbf{#1}
+}
+ 
+\begin{document}
+ 
+%--------------------HEADING--------------------
+\begin{center}
+    \textbf{\Large ARYAN RAJ}
+    \vspace{3pt}
+ 
+    \small \href{mailto:aryan.raj2000info@gmail.com}{\faEnvelope\ aryan.raj2000info@gmail.com} \textperiodcentered\ \faPhone\ +917903594263 \textperiodcentered\ Noida \textperiodcentered\ \href{https://www.linkedin.com/in/itsshaharyan/}{\faLinkedin\ LinkedIn} \textperiodcentered\ \href{https://github.com/itsshaharyan}{\faGithub\ GitHub} \textperiodcentered\ 
+\end{center}
+ 
+%--------------------SUMMARY--------------------
+\section{Summary}
+\item Software Engineer with 1+ years of experience in Full Stack Development. Actively learning java full-stack development and ready for a developer role. 
+ 
+%--------------------TECHNICAL SKILLS------------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=*,itemsep=1pt,parsep=0pt,partopsep=0pt]
+    \item \textbf{Languages:} Java, JavaScript
+    \item \textbf{Web Development:} HTML, CSS, 
+    \item \textbf{Databases:} MySQL, 
+    \item \textbf{Cloud:} AWS (EC2,  S3)
+    \item \textbf{Tools:} Git,
+   
+ 
+%--------------------WORK EXPERIENCE--------------------
+\section{Work Experience}
+\item \textbf{Trainee Associate} \hfill \textbf{Tech Mahindra, Noida} \hfill \textbf{May 2025 -- Sep 2025}
+\begin{itemize}[leftmargin=*,itemsep=1pt,parsep=0pt,partopsep=0pt]
+    \item \textbf{}Supported Developers with debugging, documentation and testing. 
+    \item Gained exposure to Agile workflow and SDLC.
+    \item \textbf{}Enhanced technical and professional skills through guided trainings. 
+\end{itemize}
+\item \textbf{SWE Intern} \hfill \textbf{Trifecta} \hfill \textbf{Feb 2024 -- May 2025}
+\begin{itemize}[leftmargin=*,itemsep=1pt,parsep=0pt,partopsep=0pt]
+    \item \textbf{}Practical learning in backend development, and java frameworks. 
+     \item Conducted code reviews and improved code quality. 
+    \item \textbf{}Maintained project documentation and team collaboration. 
+
+
+%--------------------PROJECTS--------------------
+\section{Projects}
+ \resumetitle{Krypturg} \hfill \href{https://github.com/itsshaharyan/krypturg-Web-App}{GitHub} 
+\begin{itemize}[leftmargin=*,itemsep=1pt,parsep=0pt,partopsep=0pt]
+    \item Developed a full-stack web application using  \textbf{JSP}, \textbf{Servlets}, \textbf{JDBC}, \textbf{HTML/CSS}, and \textbf{MySQL} that enables users to assemble custom computer configurations and purchase them online.
+    
+\end{itemize}
+\resumetitle{Path Finding Visualizer} \hfill \href{https://github.com/itsshaharyan/Path-Finding-Visualizer}{GitHub}
+\begin{itemize}[leftmargin=*,itemsep=1pt,parsep=0pt,partopsep=0pt]
+    \item Designed and implemented an interactive web application using \textbf{HTML}, \textbf{CSS}, \textbf{JavaScript}, and Node.js to visualize shortest path algorithms.
+    \item It demonstrates algorithms like\textbf{ Dijkstra’s }, \textbf{BFS} , \textbf{DFS} etc. step by step on an interactive grid.
+\end{itemize}
+ \resumetitle{PlantO} \hfill \href{https://github.com/itsshaharyan/PlantO}{GitHub} 
+\begin{itemize}[leftmargin=*,itemsep=1pt,parsep=0pt,partopsep=0pt]
+    \item Developed a nursery plant management system using \textbf{Java} and \textbf{MySQL} to streamline plant inventory, customer records, and sales operations.
+
+ 
+%--------------------EDUCATION--------------------
+% \section{Education}
+% \item \resumetitle{Master of Computer Science} \hfill \textbf{University Name} \hfill\textbf{2025}
+% \begin{itemize}[leftmargin=*,itemsep=1pt,parsep=0pt,partopsep=0pt]
+%     % \item Relevant Coursework: Advanced Algorithms, Cloud Computing, Data Structures, Machine Learning
+% \end{itemize}
+% \resumetitle{Bachelor of Computer Science} \hfill \textbf{University Name} \hfill \textbf{2023}
+% \begin{itemize}[leftmargin=*,itemsep=1pt,parsep=0pt,partopsep=0pt]
+%     % \item Dean's List: Fall 2017, Spring 2018
+% \end{itemize}
+ 
+\section{Education}
+%\vspace{0em} % This pulls the content up closer to the heading
+\begin{itemize}[leftmargin=*,itemsep=1pt,parsep=0pt,partopsep=0pt]
+    \item \textbf{Bachelor of Technology in Computer Science Engineering } \hfill IEC College of Engineering and technology \hfill 2019-2023
+    
+    \item \textbf{Java FullStack}  \hfill          Accio Job\hfill Present
+\end{itemize}
+ 
+%--------------------ACHIEVEMENTS & CERTIFICATIONS--------------------
+\section{Achievements \& Certifications}
+\begin{itemize}[leftmargin=*,itemsep=1pt,parsep=0pt,partopsep=0pt]
+    \item Software	Engineering	Job	Simulation - JP Morgan Chase & Co.\hfill \emph
+    \item Java Full Stack - Accio Job \hfill \emph
+ 
+  
+\end{itemize}
+ 
+\end{document}
